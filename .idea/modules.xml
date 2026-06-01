@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ListContinuidade/ListContinuidade.iml" filepath="$PROJECT_DIR$/ListContinuidade/ListContinuidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEDEx04/ListaEDEx04.iml" filepath="$PROJECT_DIR$/ListaEDEx04/ListaEDEx04.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListaEncadeada/ListaEncadeada.iml" filepath="$PROJECT_DIR$/ListaEncadeada/ListaEncadeada.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/aulas.iml" filepath="$PROJECT_DIR$/.idea/aulas.iml" />
     </modules>
