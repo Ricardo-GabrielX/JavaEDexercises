@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExPreProva2/ExPreProva2.iml" filepath="$PROJECT_DIR$/ExPreProva2/ExPreProva2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListContinuidade/ListContinuidade.iml" filepath="$PROJECT_DIR$/ListContinuidade/ListContinuidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEDEx04/ListaEDEx04.iml" filepath="$PROJECT_DIR$/ListaEDEx04/ListaEDEx04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEncadeada/ListaEncadeada.iml" filepath="$PROJECT_DIR$/ListaEncadeada/ListaEncadeada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aulas.iml" filepath="$PROJECT_DIR$/.idea/aulas.iml" />
+    </modules>
+  </component>
+</project>
