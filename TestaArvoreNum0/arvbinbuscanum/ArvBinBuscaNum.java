@@ -144,6 +144,8 @@ public class ArvBinBuscaNum {
 					return achaPaiRec(novoNo, candidato.getRef(1));
 	}	
 
+
+	// 1) Adapte a rotina de impressão para percorrer a árvore em percurso simétrico (em-ordem)
 	public void imprimeArv(No r, int nivel) {
 	// Imprime o conteudo de uma arvore binaria, com a raiz alinhada no
 	// lado esquerdo da tela. Conforme aumenta o nivel do no, seu valor e
@@ -151,19 +153,20 @@ public class ArvBinBuscaNum {
 		if (r == null) {
 			return;
 		}
-	
+
 		// Fazendo o processamento do valor a imprimir
 		
 		// Ajustando o deslocamento horizontal na tela
 		for (int i = 0; i < nivel; i++)
 			System.out.printf("   ");
-	
-		// Imprimindo o valor e descendo uma linha
-		System.out.println(r.getValor());	
-			
+
+
 		// Processando as suas duas subarvores
 		imprimeArv(r.getRef(0), nivel + 1);
+		System.out.println(r.getValor());
 		imprimeArv(r.getRef(1), nivel + 1);
+
+
 	}
 	
 	public No pesquisaValor(int v) {
