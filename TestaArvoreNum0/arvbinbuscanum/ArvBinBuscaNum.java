@@ -144,8 +144,6 @@ public class ArvBinBuscaNum {
 					return achaPaiRec(novoNo, candidato.getRef(1));
 	}	
 
-
-	// 1) Adapte a rotina de impressão para percorrer a árvore em percurso simétrico (em-ordem)
 	public void imprimeArv(No r, int nivel) {
 	// Imprime o conteudo de uma arvore binaria, com a raiz alinhada no
 	// lado esquerdo da tela. Conforme aumenta o nivel do no, seu valor e
@@ -218,5 +216,17 @@ public class ArvBinBuscaNum {
 				return pesquisaValorRec(procurado, atual.getRef(0));
 			else
 				return pesquisaValorRec(procurado, atual.getRef(1));
+	}
+
+	public int qtdeFolha(No r){
+		if(r == null){
+			return 0;
+		}
+
+		if(r.getRef(0)== null && r.getRef(1) == null) {
+			return 1;
+		}
+
+		return qtdeFolha(r.getRef(0)) + qtdeFolha(r.getRef(1));
 	}
 }
