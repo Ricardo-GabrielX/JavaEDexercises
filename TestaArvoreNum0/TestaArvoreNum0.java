@@ -27,7 +27,11 @@ public class TestaArvoreNum0 {
 		// Exibindo o conteúdo da arvore que foi gerada
 		System.out.println("Conteúdo da arvore:");
 		arv.imprimeArv(arv.getRaiz(), 0);
+		// qtdeFolhas
 		System.out.println("Quantidade de folhas: " + arv.qtdeFolha(arv.getRaiz()));
+		//
+		System.out.println("Em níveis: ");
+		arv.imprimeNiveis(arv.getRaiz());
 		
 		// Pesquisando um valor na arvore
 		System.out.println("Informe um valor para ser pesquisado na arvore:");

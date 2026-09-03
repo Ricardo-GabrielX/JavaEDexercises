@@ -3,6 +3,9 @@
 //
 package arvbinbuscanum;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class ArvBinBuscaNum {
 	public class No {
 	// Classe que define a estrutura e operacoes basicas de um no de arvore
@@ -228,5 +231,25 @@ public class ArvBinBuscaNum {
 		}
 
 		return qtdeFolha(r.getRef(0)) + qtdeFolha(r.getRef(1));
+	}
+
+	public void imprimeNiveis(No r){
+		if(r == null) return;
+
+		Queue<No> f = new LinkedList<>();
+		No x;
+
+		f.add(r);
+		while(f.size() > 0) {
+			x = f.poll();
+			if(x.getRef(0) != null){
+				f.add(x.getRef(0));
+			}
+			if(x.getRef(1) != null){
+				f.add(x.getRef(1));
+			}
+			System.out.println(x.getValor());
+		}
+
 	}
 }
