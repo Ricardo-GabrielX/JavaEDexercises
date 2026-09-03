@@ -252,4 +252,16 @@ public class ArvBinBuscaNum {
 		}
 
 	}
+
+	public int AlturaArvore(No r) {
+		if (r == null) {
+			return -1;
+		}
+
+		int alturaEsq =	AlturaArvore(r.getRef(0));
+		int alturaDir =	AlturaArvore(r.getRef(1));
+
+		return 1 + Math.max(alturaEsq, alturaDir);
+
+	}
 }

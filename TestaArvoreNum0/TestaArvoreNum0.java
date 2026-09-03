@@ -32,6 +32,8 @@ public class TestaArvoreNum0 {
 		// exibe em níveis(resolução 4):
 		System.out.println("Em níveis: ");
 		arv.imprimeNiveis(arv.getRaiz());
+		// Altura da árvore.
+		System.out.println("Altura: " + arv.AlturaArvore(arv.getRaiz()));
 		
 		// Pesquisando um valor na arvore
 		System.out.println("Informe um valor para ser pesquisado na arvore:");
@@ -41,4 +43,6 @@ public class TestaArvoreNum0 {
 		else
 			System.out.println("O valor " + valor + " NaO EXISTE na arvore");
 	}
+
+
 }
