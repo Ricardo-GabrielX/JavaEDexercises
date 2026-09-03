@@ -163,8 +163,8 @@ public class ArvBinBuscaNum {
 
 		// Processando as suas duas subarvores
 		imprimeArv(r.getRef(0), nivel + 1);
-		System.out.println(r.getValor());
 		imprimeArv(r.getRef(1), nivel + 1);
+		System.out.println(r.getValor());
 
 
 	}
