@@ -29,7 +29,7 @@ public class TestaArvoreNum0 {
 		arv.imprimeArv(arv.getRaiz(), 0);
 		// qtdeFolhas
 		System.out.println("Quantidade de folhas: " + arv.qtdeFolha(arv.getRaiz()));
-		//
+		// exibe em níveis(resolução 4):
 		System.out.println("Em níveis: ");
 		arv.imprimeNiveis(arv.getRaiz());
 		
